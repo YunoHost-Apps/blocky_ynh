@@ -7,7 +7,7 @@ name = "Blocky"
 description.en = "Fast and lightweight DNS proxy as ad-blocker for local network"
 description.fr = "Proxy DNS rapide et léger comme bloqueur de publicités pour le réseau local"
 
-version = "0.24~ynh1"
+version = "0.28.2~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -18,7 +18,7 @@ admindoc = "https://0xerr0r.github.io/blocky/latest/"
 code = "https://github.com/0xERR0R/blocky"
 
 [integration]
-yunohost = ">= 12.0.9"
+yunohost = ">= 12.1.39"
 helpers_version = "2.1"
 architectures = ["amd64", "arm64", "armhf"]
 multi_instance = true
@@ -44,12 +44,12 @@ ram.runtime = "50M"
 
     [resources.sources.main]
     in_subdir = false
-    amd64.url = "https://github.com/0xERR0R/blocky/releases/download/v0.24/blocky_v0.24_Linux_x86_64.tar.gz"
-    amd64.sha256 = "7e79d4129a62813bd67308f271a159875b38b4715ed7105572d3106ea2750e10"
-    arm64.url = "https://github.com/0xERR0R/blocky/releases/download/v0.24/blocky_v0.24_Linux_arm64.tar.gz"
-    arm64.sha256 = "186ba9140969bef9a00da69c0b0044efc317bfef9e4463d422c945765ae96f8a"
-    armhf.url = "https://github.com/0xERR0R/blocky/releases/download/v0.24/blocky_v0.24_Linux_armv7.tar.gz"
-    armhf.sha256 = "96651c4dec9afef4171a453302e33d845bdf61985b95bb3aa68f24b3bd5700ff"
+    amd64.url = "https://github.com/0xERR0R/blocky/releases/download/v0.28.2/blocky_v0.28.2_Linux_x86_64.tar.gz"
+    amd64.sha256 = "bc93921fb033c25370808639f1f6b62f2356d14cfa00a8e110b514f5001caed0"
+    arm64.url = "https://github.com/0xERR0R/blocky/releases/download/v0.28.2/blocky_v0.28.2_Linux_arm64.tar.gz"
+    arm64.sha256 = "e7adb5bdff391c8fe88376ed861ee5dd1ae107ea3cb375cb8cc17371846b26b1"
+    armhf.url = "https://github.com/0xERR0R/blocky/releases/download/v0.28.2/blocky_v0.28.2_Linux_armv7.tar.gz"
+    armhf.sha256 = "ed7e879aad35eb8382b3dfdf8c34abd3566406ec46a5cc4c5ef82d3f37319afc"
 
     autoupdate.strategy = "latest_github_release"
 
